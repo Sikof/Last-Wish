@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	/*box-sizing: border-box;*/
+	font-family: sans-serif;
+}
+.wrapper {
+	width: 1366px;
+	height: 2000px;  /*da se izbrise koga ke zavrsime so kucanje */
+	margin: 0 auto;
+	background-color: blue;
+}
+header {
+	width: 1366px;
+	height: 132px;
+	/*background-color: red;*/
+	border-bottom: 8px solid #ed5eb8;
+}
+.upper-info {
+	width: 100%;
+	height: 36px;
+	background-color: #cfcfcf;
+}
+.upper-info-left {
+	width: 50%;
+	height: 36px;
+	float: left;
+	background-color: green;
+}
+.upper-info-right {
+	width: 50%;
+	height: 36px;
+	float: right;
+	background-color: pink;
+}
+.phone {
+	/*display: block;*/
+	float: left;
+	width: 16px;
+	height: 20px;
+	background-image: url(../img/phone.png);
+	margin: 0 10px;
+}
+.info-element {
+	width: 220px;
+	height: 24px;
+	float: left;
+	background-color: yellow;
+	margin: 0 30px 0 0;
+	padding: 6px 0;
+}
+.info-element p {
+	height: 24px;
+	line-height: 24px;
+}
+
+
+.info-elemental{
+	width: 250px;
+	height: 24px;
+	float: right;
+	background-color: yellow;
+	/*margin: 0 400px 0;*/
+	padding: 6px 0px;
+	
+}
+
+.clock{
+	width: 22px;
+	height: 23px; 
+	background-image: url(../img/clock.png);
+	float: left;
+	margin: 0 10px;
+
+}
+
+.info-elemental p {
+	height: 24px;
+	line-height: 24px;
+}
+
+.gps {
+
+	background-image: url(../img/place.png);
+	width: 17px;
+	height: 25px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.info-elementals{
+	width: 290px;
+	height: 24px;
+	float: right;
+	background-color: red;
+	margin: 0 70px 0;
+	padding: 6px 0px;
+	
+}
+
+.info-elementals p {
+	height: 24px;
+	line-height: 24px;
+
+}
+
+
+.MainNav {
+	width: 100%;
+	height: 98px;
+	background-color: cyan;
+
+}
+
+.MainNav-Left {
+	float: left;
+	width: 400px;
+	height: 26px;
+	margin-top: 44px;
+	margin-left: 30px;
+}
+
+.MainNav-Right {
+	float: right;
+	margin-top: 44px;
+	width: 50%;
+}
+
+.MainNav-Right li {
+	float: left;
+	margin-right: 30px;
+}
